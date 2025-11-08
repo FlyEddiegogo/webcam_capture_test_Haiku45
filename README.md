@@ -1,0 +1,2 @@
+# webcam_capture_test_Haiku45
+Webcam影像測試擷取程式
