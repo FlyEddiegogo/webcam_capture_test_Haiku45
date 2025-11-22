@@ -1,0 +1,25 @@
+# Test dependencies for webcam_capture_test_Haiku45
+# Install with: pip install -r requirements-test.txt
+
+# Core dependencies
+opencv-python>=4.5.0
+numpy>=1.19.0
+Pillow>=8.0.0
+
+# Testing framework
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-mock>=3.10.0
+pytest-timeout>=2.1.0
+
+# Mocking and utilities
+unittest-mock>=1.4.0;python_version<"3.8"
+
+# Code quality
+flake8>=5.0.0
+black>=22.0.0
+isort>=5.10.0
+mypy>=0.990
+
+# Coverage reporting
+coverage>=6.0
